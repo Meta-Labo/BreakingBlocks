@@ -39,9 +39,6 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.ball, function (sprite, otherSpr
     otherSprite.vx = otherSprite.vx + sprite.vx / 2
     music.play(music.melodyPlayable(music.pewPew), music.PlaybackMode.UntilDone)
 })
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-	
-})
 let distance = 0
 let mySprite: Sprite = null
 let count = 0
